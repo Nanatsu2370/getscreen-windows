@@ -16,3 +16,7 @@ jobs:
 
       - name: Time Counter
         run: Start-Sleep -Seconds 21600
+      - name: Time Counter
+        run: Start-Sleep -Seconds 21600
+      - name: Time Counter
+        run: Start-Sleep -Seconds 21600
