@@ -15,8 +15,14 @@ jobs:
          cmd /c down.bat
 
       - name: Time Counter
-        run: Start-Sleep -Seconds 21600
-      - name: Time Counter
-        run: Start-Sleep -Seconds 21600
-      - name: Time Counter
-        run: Start-Sleep -Seconds 21600
+        run: Start-Sleep -Seconds 3600
+
+      - name: Next Step
+        run: echo "This step is executed after the delays"
+
+      - name: Additional Delay
+        run: Start-Sleep -Seconds 1800
+
+      - name: Next Step
+        run: echo "This step is executed after the delays"
+        
